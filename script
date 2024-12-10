@@ -1,4 +1,4 @@
--Settings:
+--Settings:
 local ScriptStarted = false
 local Keybind = "E" --Set to whatever you want, has to be the name of a KeyCode Enum.
 local Transparency = true --Will make you slightly transparent when you are invisible. No reason to disable.
@@ -106,9 +106,7 @@ local function Invisible()
           if v:IsA("LocalScript") then
               v.Disabled = false
           end
-      end
-
-IsInvisible = true
+      endIsInvisible = true
   else
       local StoredCF = FakeCharacter.HumanoidRootPart.CFrame
       FakeCharacter.HumanoidRootPart.CFrame = RealCharacter.HumanoidRootPart.CFrame
